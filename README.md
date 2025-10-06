@@ -10,7 +10,7 @@ The aim is to enhance **trust and transparency** in AI-driven medical diagnostic
 This project uses a **deep learning–based image classification model** to automatically detect pneumonia from chest X-rays.  
 A **ResNet** architecture was trained on a **balanced dataset** to ensure fair performance across both classes (*Normal* and *Pneumonia*).  
 
-To make the model interpretable, **Explainable AI (XAI)** methods such as **Grad-CAM** and **SHAP** are applied to visualize which parts of the X-ray influenced the model’s decision.
+To make the model interpretable, **Explainable AI (XAI)** methods such as **LIME** and **SHAP** are applied to visualize which parts of the X-ray influenced the model’s decision.
 
 ---
 
@@ -48,7 +48,7 @@ You can use the Chest X-Ray Images (Pneumonia) dataset from Kaggle:
 - **Programming Language:** Python 3.x  
 - **Deep Learning Framework:** TensorFlow / Keras  
 - **Libraries:** NumPy, Pandas, OpenCV, Matplotlib, Scikit-learn  
-- **Explainability:** SHAP, Grad-CAM  
+- **Explainability:** SHAP, LIME  
 - **Web Framework:** Streamlit or Flask  
 
 ---
@@ -80,4 +80,4 @@ Special thanks to:
 
 - **Kaggle** for providing the Chest X-Ray Pneumonia dataset  
 - **TensorFlow/Keras team** for their powerful deep learning tools  
-- **The open-source community** for explainability libraries like SHAP and Grad-CAM  
+- **The open-source community** for explainability libraries like SHAP and LIME
