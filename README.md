@@ -17,13 +17,21 @@ To make the model interpretable, **Explainable AI (XAI)** methods such as **Grad
 ## 📁 Directory Structure
 
 ├── data/ # Contains training, validation, and test datasets
+
 ├── app.py # Streamlit/Flask app for running the model interactively
+
 ├── evaluate_model.py # Script to evaluate model accuracy, recall, precision, F1-score
+
 ├── optimal_threshold.txt # Stores the optimal threshold determined from validation metrics
+
 ├── pneumonia_model_balanced.h5 # Trained ResNet model (balanced dataset)
+
 ├── requirements.txt # List of Python dependencies
+
 ├── train_balanced_resnet.py # Script for training ResNet on balanced dataset
+
 ├── training_results.png # Visualization of training/validation accuracy and loss
+
 ├── xai_utils.py # Utility functions for Explainable AI (Grad-CAM, SHAP, etc.)
 
 ## ⚙️ Installation and Setup
