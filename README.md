@@ -26,23 +26,16 @@ To make the model interpretable, **Explainable AI (XAI)** methods such as **Grad
 ├── training_results.png # Visualization of training/validation accuracy and loss
 ├── xai_utils.py # Utility functions for Explainable AI (Grad-CAM, SHAP, etc.)
 
-⚙️ Installation and Setup
-2. Install dependencies
+## ⚙️ Installation and Setup
+1. Install dependencies
 pip install -r requirements.txt
 
-3. (Optional) Download the dataset
+2. Download the dataset
 
 You can use the Chest X-Ray Images (Pneumonia) dataset from Kaggle:
 👉 https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
-Then place the dataset inside the data/ folder:
-
-data/
-├── train/
-├── val/
-└── test/
-
-🏋️‍♂️ Model Training
+##🏋️‍♂️ Model Training
 
 To train the model on the balanced dataset:
 
@@ -62,7 +55,7 @@ Model training using ResNet architecture
 
 Saving model weights and performance metrics
 
-📊 Model Evaluation
+## 📊 Model Evaluation
 
 To evaluate model performance on the test set:
 
