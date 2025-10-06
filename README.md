@@ -65,12 +65,6 @@ You can use the Chest X-Ray Images (Pneumonia) dataset from Kaggle:
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-Feel free to use and modify it for academic or research purposes.
-
----
 
 ## ❤️ Acknowledgments
 
